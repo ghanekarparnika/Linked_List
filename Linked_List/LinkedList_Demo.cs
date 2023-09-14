@@ -31,40 +31,48 @@ namespace Linked_List
 
 
         //UC2
-       /* public void appendNode(int data)
-        {
-            Node node = new Node(data);
-            if(this.head == null)
-            {
-                this.head = node;
-            }
-            else 
-            {
-                Node current = head;
-                while (current.Next != null) 
-                {
-                    current = current.Next; ;
-                }
-                current.Next = node;
-            }
-            Console.WriteLine(data + " is appended to the linkedlist");
-        }*/
+        /* public void appendNode(int data)
+         {
+             Node node = new Node(data);
+             if(this.head == null)
+             {
+                 this.head = node;
+             }
+             else 
+             {
+                 Node current = head;
+                 while (current.Next != null) 
+                 {
+                     current = current.Next; ;
+                 }
+                 current.Next = node;
+             }
+             Console.WriteLine(data + " is appended to the linkedlist");
+         }*/
 
 
         //UC3
-        public void InsertAfter(int preData, int newData)
+        /* public void InsertAfter(int preData, int newData)
+         {
+             Node newNode = new Node(newData);
+             Node current= head;
+             while (current != null) 
+             {
+                 if(current.data == preData)
+                 {
+                     newNode.Next = current.Next;
+                     current.Next = newNode;
+                     return;
+                 }
+                 current = current.Next;
+             }
+         }*/
+
+        public void Pop()
         {
-            Node newNode = new Node(newData);
-            Node current= head;
-            while (current != null) 
+            if (head != null)
             {
-                if(current.data == preData)
-                {
-                    newNode.Next = current.Next;
-                    current.Next = newNode;
-                    return;
-                }
-                current = current.Next;
+                head = head.Next;
             }
         }
 

@@ -9,12 +9,12 @@ using System.Collections.Generic;
 list.AddFirst(56);
 list.AddLast(30);
 list.AddLast(70);
-Console.Write("Created Linked List: ");
+//Console.Write("Created Linked List: ");
 
 foreach (int data in list)
 {
     Console.Write(data+"-->");
-}*/
+}
 
 //Ability to create Linked List by adding 30 and 56 to 70
 
@@ -25,8 +25,9 @@ foreach (int data in list)
 - LinkedList Sequence: 56->30->70*/
 
 LinkedList_Demo link = new LinkedList_Demo();
-//link.addNode(56);
-//link.addNode(70);
+link.addNode(56);
+link.addNode(30);
+link.addNode(70);
 //link.Display();
 //UC2
 /*link.appendNode(56);
@@ -35,8 +36,15 @@ link.appendNode(70);
 link.Display();*/
 
 //UC3
- link.addNode(56);
+/* link.addNode(56);
 link.addNode(70);
 link.InsertAfter(56, 30);
+link.Display();*/
+
+//UC4
+Console.WriteLine("Original LinkedList: ");
+link.Display();
+link.Pop();
+Console.WriteLine("\nUpdated LinkedList After deleting first element: ");
 link.Display();
 
