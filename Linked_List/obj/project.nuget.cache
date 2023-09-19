@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "PHMEq0CO/oJM3Qz3/GqM6sWoluF/nevTxa09MeGX0oO/y98uDisBsfUQuT3nVDbhj+on5R34t9KsDAmJJqMAVg==",
+  "dgSpecHash": "wMnqZQmAEaBkvuOeaJOlmeR8YmgeQbmC8gA6XxJvUpJhCFbBaDLBLG1hAoe0QRqS/yCvupA8177fwfF+BwHiUw==",
   "success": true,
   "projectFilePath": "C:\\Users\\UDIT\\Downloads\\Linked_List\\Linked_List.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\UDIT\\.nuget\\packages\\mstest.testframework\\3.1.1\\mstest.testframework.3.1.1.nupkg.sha512"
+  ],
   "logs": []
 }

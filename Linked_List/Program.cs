@@ -11,23 +11,6 @@ using System.Collections.Generic;
 //- Note there is new tail
 //- Final Sequence: 56->30
 
-LinkedList_Demo linkedList = new LinkedList_Demo();
-linkedList.Add(56);
-linkedList.Add(30);
-linkedList.Add(70);
-
-Console.WriteLine("Original LinkedList:");
-linkedList.Display();
-
-// Search for a value (e.g., 30)
-int searchValue = 30;
-Node resultNode = linkedList.Search(searchValue);
-
-if (resultNode != null)
-{
-    Console.WriteLine("Found node with value:"+resultNode.Data);
-}
-else
-{
-    Console.WriteLine("Node with value "+ searchValue +" not found.");
-}
+// Main method is used for running tests
+var testClass = new LinkedListTests();
+testClass.TestInsertAfter();// Main method is used for running tests
